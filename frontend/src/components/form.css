@@ -1,0 +1,205 @@
+/* Container styles */
+
+/* .home{
+    min-height: 100vh;
+    display: flex;
+    background-color: #f0f2f5;
+} */
+.password-match-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+.employee-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 80px; /* Adjust button width as needed */
+  }
+  
+  .delete-button {
+    background-color: #dc3545; /* Red color for delete button */
+  }
+  
+  .edit-button:hover,
+  .delete-button:hover {
+    opacity: 0.8; /* Reduced opacity on hover */
+  }
+  
+  
+.password-match-message.success {
+    color: green;
+}
+.edit-emp-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+.edit-emp-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin:10px;
+}
+
+.form-submit:hover {
+    background-color: #0056b3;
+
+
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #f0f2f5;
+}
+
+/* Form styles */
+.edit-emp-form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Input styles */
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* Textarea styles */
+.form-textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Submit button styles */
+.form-submit {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.form-submit:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Label styles */
+.form-label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+}
+
+/* Form title styles */
+.form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    .edit-emp-form {
+        padding: 20px;
+    }
+
+    .form-input,
+    .form-textarea {
+        padding: 10px;
+    }
+
+    .form-submit {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
